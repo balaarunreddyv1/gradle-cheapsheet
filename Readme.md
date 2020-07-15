@@ -16,6 +16,15 @@
 **Dependencies**
 - find dependecines and its dependencies `./gradlew dependencies` or `./gradlew dependencies --configuration compile` <- runs only the 
 
+- `settings.gradle` has the project structure and its child projects included for project scope purpose. 
+```
+example: settings.gradle
+
+rootProject.name=Parent-project
+include 'child-project'
+
+```
+
 - Gradle project can have multiple child gradle projects. To find the gradle child projects look at setting.gradle file. with syntax `include ${new-project}` where `new-project` is a child gradlw project. this child project has it own build.gradle file.
 
 - A gradle child project can used as a dependency in other gradle project.
