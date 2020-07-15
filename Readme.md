@@ -19,7 +19,7 @@
 - Gradle project can have multiple child gradle projects. To find the gradle child projects look at setting.gradle file. with syntax `include ${new-project}` where `new-project` is a child gradlw project. this child project has it own build.gradle file.
 
 - A gradle child project can used as a dependency in other gradle project.
-`
+````
 Example: project-a has dependency on project-b
 
 In project-a build.gradle
@@ -27,4 +27,4 @@ In project-a build.gradle
 dependencies {
     compile project(':project-b') <- declared project-b as requiered at compile for project-a, and project-a build artifact will include project B aswell.
 }
-`
+````
