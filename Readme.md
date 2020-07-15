@@ -59,4 +59,4 @@ dependencies {
 gradlew wrapper reads the settings from `gradle-wrapper.properties` located under `projectDir/gradle/wrapper/`
 
 **gradle --profile**
-- generates a report for the ran task profile `example: gradle build --profile` generate a build profile report.
+- generates a report for the ran task profile `example: gradle build --profile` generate a build profile summary report.
