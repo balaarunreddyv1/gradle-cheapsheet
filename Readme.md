@@ -7,8 +7,8 @@
 **Proerties in a gradle file**
 - To list all the properties what can used in build.gradle file -> run terminal command `gradle properties`. or search in https://docs.gradle.org/current/dsl/org.gradle.api.Project.html
 
-**Tasks**
-- To view all available gradle tasks run `gradle tasks` command.
+**Tasks** https://docs.gradle.org/current/dsl/org.gradle.api.Task.html#org.gradle.api.Task
+- To view all available gradle tasks run `gradle tasks` command. 
 
 **List all projects in repo**
 - `./gradlew projects`
