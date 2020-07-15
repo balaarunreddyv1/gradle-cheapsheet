@@ -41,3 +41,6 @@ dependencies {
 - build directory is the output directory of gradle.
 
 - use `-q` to run commands in quite mode. example: gradle -q projects
+
+**gradle wrapper**
+- gradle wrapper aka gradlew makes sure that proper gradlew version is installed.
