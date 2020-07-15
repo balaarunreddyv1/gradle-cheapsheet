@@ -14,4 +14,6 @@
 - `./gradlew projects`
 
 **Dependencies**
-- find dependecines and its dependencies `./gradlew dependencies`
+- find dependecines and its dependencies `./gradlew dependencies` or `./gradlew dependencies --configuration compile` <- runs only the 
+
+- Gradle project can have multiple sub projects. to find the sub projects look at setting.gradle file.
