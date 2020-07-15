@@ -10,5 +10,8 @@
 **Tasks**
 - To view all available gradle tasks run `gradle tasks` command.
 
+**List all projects in repo**
+- `./gradlew projects`
+
 **Dependencies**
 - 
