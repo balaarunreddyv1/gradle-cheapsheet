@@ -14,4 +14,4 @@
 - `./gradlew projects`
 
 **Dependencies**
-- 
+- find dependecines and its dependencies `./gradlew dependencies`
