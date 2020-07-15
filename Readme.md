@@ -37,3 +37,5 @@ dependencies {
     compile project(':project-b') <- declared project-b as requiered at compile for project-a, and project-a build artifact will include project B aswell.
 }
 ````
+
+- build directory is the output directory of gradle.
