@@ -11,6 +11,7 @@
 
 **Tasks** https://docs.gradle.org/current/dsl/org.gradle.api.Task.html#org.gradle.api.Task
 - To view all available gradle tasks run `gradle tasks` command. 
+- tasks depend on other tasks `example: tasks.B.dependsOn 'A'`. -> task A gets excuted first and them task B get executed.
 
 **List all projects in repo**
 - `./gradlew projects`
