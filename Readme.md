@@ -2,7 +2,7 @@
 - task is a collection of actions.
 - Actions are functions performed by gradle in a acylic way.
 
-**NOTE:** Gradle properties are based on gradle closure. so a block of code in a closure `{ code }` is executed runtime.
+**NOTE:** Gradle properties are based on gradle closure. so a block of code in a gradle closure `{ code }` is executed runtime.
 
 - Gradle uses Project Object Model. so every sytnax in the build.gradle file extends `project` object. **example:** `repositories { mavencentral() }` can also declared as `project.repositories { mavencentral() }`
 
