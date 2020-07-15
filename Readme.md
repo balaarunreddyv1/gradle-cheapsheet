@@ -4,4 +4,4 @@
 
 - Gradle uses Project Object Model. so every sytnax in the build.gradle file extends `project` object. **example:** `repositories { mavencentral() }` can also declared as `project.repositories { mavencentral() }`
 
-To list all the properties what can used in build.gradle -> run terminal command `gradle properties`.
+To list all the properties what can used in build.gradle file -> run terminal command `gradle properties`. or search in https://docs.gradle.org/current/dsl/org.gradle.api.Project.html
