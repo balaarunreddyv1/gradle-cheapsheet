@@ -19,7 +19,7 @@ task B {
     descripton = "task descripton"
 }
 ```
-- 
+- Can Extend a exsisting task  
 
 **List all projects in repo**
 - `./gradlew projects`
@@ -35,6 +35,7 @@ rootProject.name=Parent-project
 include 'child-project'
 
 ```
+- buildScript { dependencies { } }  // used to point files. classes that required at buildtime.
 
 - Gradle project can have multiple child gradle projects. To find the gradle child projects look at setting.gradle file. with syntax `include ${new-project}` where `new-project` is a child gradlw project. this child project has it own build.gradle file.
 
@@ -56,3 +57,6 @@ dependencies {
 **gradle wrapper**
 - gradle wrapper aka gradlew makes sure that proper gradlew version is installed properly.
 gradlew wrapper reads the settings from `gradle-wrapper.properties` located under `projectDir/gradle/wrapper/`
+
+**gradle --profile**
+- generates a report for the ran task profile `example: gradle build --profile` generate a build profile report.
