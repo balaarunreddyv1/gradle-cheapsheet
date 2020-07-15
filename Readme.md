@@ -16,4 +16,4 @@
 **Dependencies**
 - find dependecines and its dependencies `./gradlew dependencies` or `./gradlew dependencies --configuration compile` <- runs only the 
 
-- Gradle project can have multiple sub projects. to find the sub projects look at setting.gradle file.
+- Gradle project can have multiple child gradle projects. To find the gradle child projects look at setting.gradle file. with syntax `include ${new-project}` where `new-project` is a child gradlw project. this child project has it own build.gradle file.
