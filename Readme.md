@@ -43,4 +43,5 @@ dependencies {
 - use `-q` to run commands in quite mode. example: gradle -q projects
 
 **gradle wrapper**
-- gradle wrapper aka gradlew makes sure that proper gradlew version is installed.
+- gradle wrapper aka gradlew makes sure that proper gradlew version is installed properly.
+gradlew wrapper reads the settings from `gradle-wrapper.properties` located under `projectDir/gradle/wrapper/`
